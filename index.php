@@ -29,7 +29,6 @@ include("class/php/ip.php");
 			include("model/section.php");
 			?>
 		</section>
-
 		<footer>
 			<?php
 			include("model/footer.php");
@@ -39,5 +38,8 @@ include("class/php/ip.php");
 		include("vue.html");
 		?>
 	</div>
+
+	
 </body>
+
 </html>
