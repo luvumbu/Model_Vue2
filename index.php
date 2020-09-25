@@ -4,20 +4,22 @@ include("class/php/ip.php");
 ?>
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php
 	include("link.html"); // ajout des liens externes 
-	include("link_php.php");// pour toutes les classe php 
-	include("link_js.js");// pour toutes les class Javascript
+	include("link_php.php"); // pour toutes les classe php 
+	include("link_js.js"); // pour toutes les class Javascript
 	?>
 	<title>Bokonzi</title>
 </head>
+
 <body>
 	<div id="body">
 		<header>
-		
+
 			<?php
 			include("model/header.php");
 			?>
@@ -34,11 +36,8 @@ include("class/php/ip.php");
 			?>
 		</footer>
 		<?php
-			include("vue.html");
+		include("vue.html");
 		?>
 	</div>
 </body>
- 
-
-
 </html>
