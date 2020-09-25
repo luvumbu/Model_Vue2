@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("ip.php");
+include("class/php/ip.php");
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -15,6 +15,7 @@ include("ip.php");
 <body>
 	<div id="body">
 		<header>
+		
 			<?php
 			include("model/header.php");
 			?>
@@ -35,8 +36,7 @@ include("ip.php");
 		?>
 	</div>
 </body>
-<script src="controller/header.js"></script>
-<script src="controller/section.js"></script>
-<script src="controller/footer.js"></script>
-<script src="vue.js"></script>
+ 
+
+
 </html>
