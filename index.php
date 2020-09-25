@@ -8,9 +8,9 @@ include("class/php/ip.php");
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<?php
-	include("link.html");
-	include("link_php.php");
-	include("link_js.js");
+	include("link.html"); // ajout des liens externes 
+	include("link_php.php");// pour toutes les classe php 
+	include("link_js.js");// pour toutes les class Javascript
 	?>
 	<title>Bokonzi</title>
 </head>
