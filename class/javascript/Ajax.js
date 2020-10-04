@@ -9,3 +9,9 @@ function Ajax(id,source){
   xhttp.open("GET", source, true);
   xhttp.send();
 }
+
+// exemple de code 
+
+/* 
+Ajax(nomId,document/source.txt);
+*/
