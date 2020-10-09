@@ -11,7 +11,7 @@ include("class/php/ip.php");
 	<?php
 	include("link.html"); // ajout des liens externes 
 	include("link_php.php"); // pour toutes les classe php 
-	include("link_js.js"); // pour toutes les class Javascript
+	include("link_js.html"); // pour toutes les class Javascript
 	?>
 	<title>Bokonzi</title>
 </head>
@@ -21,7 +21,7 @@ include("class/php/ip.php");
 		<header>
 
 			<?php
-			include("model/header.php");
+	 	include("model/header.php");
 			?>
 		</header>
 		<section>
@@ -38,8 +38,17 @@ include("class/php/ip.php");
 		include("vue.html");
 		?>
 	</div>
-
-	
+<div id="test">Mon test</div>
+<style>
+	.mn{
+		background-color: red;
+		padding: 15px;
+	}
+	.red{
+		background-color: blue;
+		padding: 15px;
+	}
+</style>
 </body>
 
 </html>
