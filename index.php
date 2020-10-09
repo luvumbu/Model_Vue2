@@ -4,7 +4,6 @@ include("class/php/ip.php");
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +18,6 @@ include("class/php/ip.php");
 <body>
 	<div id="body">
 		<header>
-
 			<?php
 	 	include("model/header.php");
 			?>
@@ -38,17 +36,6 @@ include("class/php/ip.php");
 		include("vue.html");
 		?>
 	</div>
-<div id="test">Mon test</div>
-<style>
-	.mn{
-		background-color: red;
-		padding: 15px;
-	}
-	.red{
-		background-color: blue;
-		padding: 15px;
-	}
-</style>
 </body>
 
 </html>
